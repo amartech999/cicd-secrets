@@ -16,7 +16,7 @@ data "aws_ami" "amazon_linux" {
 resource "aws_s3_bucket" "demo_bucket" {
   bucket = var.bucket_name
   tags = {
-    Environment = "Dev"
+    Environment = "Dev22"
   }
 }
 
