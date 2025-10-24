@@ -8,7 +8,7 @@ on:
 
 jobs:
   terraform-plan:
-    name: Terraform Plan
+    name: Terraform P lan
     runs-on: ubuntu-latest
 
     env:
